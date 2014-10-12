@@ -2693,7 +2693,7 @@ AuctionHouseBot.Update.Interval = 20
 #       Default:     0 - (Disabled)
 #                    1 - (Enabled)
 
-AuctionHouseBot.Seller.Enabled = 0
+AuctionHouseBot.Seller.Enabled = 1
 
 #
 #    AuctionHouseBot.Alliance.Items.Amount.Ratio
@@ -2721,7 +2721,7 @@ AuctionHouseBot.Neutral.Items.Amount.Ratio = 100
 #       Description: Minimum time for the new auction in hours
 #       Default: 1 - (Hour)
 
-AuctionHouseBot.MinTime = 1
+AuctionHouseBot.MinTime = 4
 
 #
 #    AuctionHouseBot.MaxTime
@@ -2752,7 +2752,7 @@ AuctionHouseBot.Items.Loot = 1
 #       Default:     0 - (Disabled)
 #                    1 - (Enabled)
 
-AuctionHouseBot.Items.Misc = 0
+AuctionHouseBot.Items.Misc = 1
 
 #
 #    AuctionHouseBot.Bind.*
@@ -2860,7 +2860,7 @@ AuctionHouseBot.Items.Amount.Gray = 0
 AuctionHouseBot.Items.Amount.White = 2000
 AuctionHouseBot.Items.Amount.Green = 2500
 AuctionHouseBot.Items.Amount.Blue = 1500
-AuctionHouseBot.Items.Amount.Purple = 1000
+AuctionHouseBot.Items.Amount.Purple = 500
 AuctionHouseBot.Items.Amount.Orange = 0
 AuctionHouseBot.Items.Amount.Yellow = 0
 
@@ -2897,8 +2897,8 @@ AuctionHouseBot.Class.Recipe = 6
 AuctionHouseBot.Class.Quiver = 1
 AuctionHouseBot.Class.Quest = 1
 AuctionHouseBot.Class.Key = 1
-AuctionHouseBot.Class.Misc = 5
-AuctionHouseBot.Class.Glyph = 3
+AuctionHouseBot.Class.Misc = 3
+AuctionHouseBot.Class.Glyph = 8
 
 #
 ###################################################################################################
