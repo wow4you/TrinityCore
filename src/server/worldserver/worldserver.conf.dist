@@ -2913,8 +2913,8 @@ AuctionHouseBot.Class.Glyph = 8
 #       Description: Prevent seller from listing mounts below/above this required level
 #       Default:     0
 
-AuctionHouseBot.Class.Misc.Mount.ReqLevel.Min = 0
-AuctionHouseBot.Class.Misc.Mount.ReqLevel.Max = 0
+AuctionHouseBot.Class.Misc.Mount.ReqLevel.Min = 100
+AuctionHouseBot.Class.Misc.Mount.ReqLevel.Max = 100
 
 #
 #    AuctionHouseBot.Class.Misc.Mount.ReqSkill.*
