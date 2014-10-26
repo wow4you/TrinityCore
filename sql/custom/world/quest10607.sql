@@ -100,7 +100,7 @@ DELETE FROM creature WHERE id = 22798 OR id= 22799 OR id=22800 OR id=22801;
 
 DELETE FROM conditions WHERE SourceEntry=19988 OR SourceEntry=19989 OR SourceEntry=20329 OR SourceEntry=19990;
 -- Falconwing Buff Condition
-INSERT INTO `world`.`conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `SourceId`, `ElseGroup`, `ConditionTypeOrReference`, `ConditionTarget`, `ConditionValue1`, `ConditionValue2`, `ConditionValue3`, `NegativeCondition`, `ErrorType`, `ErrorTextId`, `ScriptName`, `Comment`)
+INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `SourceId`, `ElseGroup`, `ConditionTypeOrReference`, `ConditionTarget`, `ConditionValue1`, `ConditionValue2`, `ConditionValue3`, `NegativeCondition`, `ErrorType`, `ErrorTextId`, `ScriptName`, `Comment`)
 VALUES -- 1,2,3
 ('22', '1', '19988', '0', '0', '9', '0', '10607', '0', '0', '0', '0', '0', '0', 'Falconwing Buff Condition for Spell Animation \'Detect Whisper \''),
 ('22', '2', '19988', '0', '0', '9', '0', '10607', '0', '0', '0', '0', '0', '0', 'Falconwing Buff Condition for Apply Understanding Ravenspeech ON death ID 37642 (BUFF)'),
